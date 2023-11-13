@@ -1,0 +1,39 @@
+2023-11-10 14:07:11,596 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-11-10 14:07:11,634 INFO o.s.b.StartupInfoLogger [main] Starting Application using Java 21.0.1 with PID 32636 (C:\work\decprg.product\target\classes started by oarth in C:\work\decprg.product)
+2023-11-10 14:07:11,637 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-10 14:07:12,196 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-10 14:07:12,244 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2023-11-10 14:07:12,397 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=d2479d14-2a3a-3c96-8732-504e879dcc26
+2023-11-10 14:07:12,801 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-11-10 14:07:12,811 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-11-10 14:07:12,813 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-10 14:07:12,814 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-10 14:07:12,909 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-10 14:07:12,909 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1233 ms
+2023-11-10 14:07:12,945 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-10 14:07:13,140 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-11-10 14:07:13,142 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-10 14:07:13,152 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2023-11-10 14:07:13,256 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-10 14:07:13,328 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-10 14:07:13,331 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-10 14:07:13,592 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-10 14:07:13,635 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-10 14:07:14,372 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-10 14:07:14,410 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-10 14:07:14,638 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-10 14:07:14,945 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-11-10 14:07:14,966 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-11-10 14:07:14,976 INFO o.s.b.StartupInfoLogger [main] Started Application in 3.841 seconds (process running for 4.583)
+2023-11-10 14:07:24,104 INFO o.a.j.l.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-10 14:07:24,105 INFO o.s.w.s.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-10 14:07:24,108 INFO o.s.w.s.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2023-11-10 14:07:24,133 INFO b.m.d.p.s.ProductService [http-nio-8081-exec-1] Retrieving product by ID: 1
+2023-11-10 14:07:49,927 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(4)-127.0.0.1] Application shutdown requested.
+2023-11-10 14:07:49,937 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8081"]
+2023-11-10 14:07:49,938 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Stopping service [Tomcat]
+2023-11-10 14:07:49,941 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-10 14:07:49,947 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8081"]
+2023-11-10 14:07:49,951 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(4)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-10 14:07:49,953 INFO c.z.h.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-11-10 14:07:49,954 INFO c.z.h.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown completed.
